@@ -1,0 +1,18 @@
+.NextBack{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 7rem;
+}
+
+.butnS-B{
+    background-color: #dd0000;
+    margin: 10px;
+    color: white;
+    border: none;
+    border: 7px solid #dd0000;
+    border-radius: 10px;
+    width: 10rem;
+
+
+}

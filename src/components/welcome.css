@@ -1,0 +1,31 @@
+
+
+.welcom_container{
+    display: flex;
+
+}
+
+.flex1{
+    flex-basis: 22%;
+}
+.flex2{
+    flex-basis: 56%;
+}
+
+.welcome{
+    
+    font-size: x-large;
+    font-weight: bold;
+    font-family: 'Play', sans-serif;
+}
+
+.linewel{
+    border: 1px dotted black;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+}
+
+.welcom-items{
+    margin: 20px;
+}

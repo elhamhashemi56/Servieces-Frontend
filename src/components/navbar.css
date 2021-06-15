@@ -1,0 +1,58 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+ nav1{
+    padding: 10px 10px 0 10px;
+    background-color: #3f3f3f;
+    display: flex;
+    position: relative;
+   
+    
+}
+nav1 .anavbar{
+    
+    display: inline-block;
+    text-decoration: none;
+    color: #dbdbdb;
+    font-size: 12px;
+}
+
+nav1 > div{
+    padding: 0px 20px 10px 20px;
+}
+
+.ulnav{
+    margin: 0;
+    display: none;
+    position: absolute;
+    top: 40px;
+    list-style: none;
+    background-color: #3f3f3f;
+    
+}
+
+.linav{
+    margin: 10px auto;
+    padding: 10px;
+    transition: 0.3s ease-in;
+}
+
+.ulnav .linav .anav{
+    color: #dbdbdb;
+    font-size: 12px;
+    text-decoration: none;
+    
+}
+
+div:hover > .ulnav{
+    display: block;
+}
+
+.linav:hover{
+    background-color: #dd0000;
+    transition: 0.3s ease-in;
+}

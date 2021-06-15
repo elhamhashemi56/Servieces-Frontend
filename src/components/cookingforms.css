@@ -1,0 +1,57 @@
+
+
+.Cooking-container-forms{
+    display: flex;
+    flex-direction: column;
+}
+
+.cookInfo-forms{
+    background-color: #f6f5f7;
+    display: flex;
+}
+
+.cookItem1{
+    flex-basis: 20%;
+}
+
+.cookItem-forms{
+    flex-basis: 60%;
+}
+
+.form-container{
+    background-color: #fff;
+	border-radius: 10px;
+  	box-shadow: 0 14px 28px rgba(0,0,0,0.25);
+    margin: 40px;
+	overflow: hidden;
+	min-height: 300px;
+}
+
+.form-questions{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    /* border: 1px solid red; */
+}
+.question{
+    margin-bottom: 10px;
+}
+
+.answers{
+    display: flex;
+    flex-direction: column;
+    background-color: #f1f1f1;
+    border: 1px solid #d4d4d4;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.answers-items{
+    margin: 10px;
+}
+
+.answer-line{
+    border: 1px solid #d4d4d4;
+}
