@@ -11,8 +11,8 @@ import Header from './components/Header'
 import Navbar  from './components/Navbar';
 import Home from './components/Home'
 import Footer from './components/Footer'
-import Cooking from './components/Cooking'
-import CookingForms from './components/CookingForms'
+import Cooking from '../src/components/cooking/Cooking'
+
 
 function App() {
   return (
@@ -25,7 +25,7 @@ function App() {
             <Redirect exact path='/' to='/home'></Redirect>
             <Route path='/home'><Home /></Route>
             <Route path='/cooking'><Cooking /></Route>
-            <Route path='/cookingforms'><CookingForms /></Route>
+           
             
           </Switch>
         </div>

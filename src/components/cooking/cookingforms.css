@@ -23,7 +23,7 @@
 	border-radius: 10px;
   	box-shadow: 0 14px 28px rgba(0,0,0,0.25);
     margin: 40px;
-	overflow: hidden;
+	overflow:hidden;
 	min-height: 300px;
 }
 
@@ -42,16 +42,37 @@
 .answers{
     display: flex;
     flex-direction: column;
-    background-color: #f1f1f1;
-    border: 1px solid #d4d4d4;
-    border-radius: 10px;
-    padding: 10px;
+    margin-bottom: 2.5rem;
 }
 
 .answers-items{
-    margin: 10px;
+    padding: 2rem;
+    background-color: #f1f1f1;
+    border: 1px solid #d4d4d4;
+   
+    
 }
 
-.answer-line{
+.answers-items:not(:last-child){
+    border-bottom: unset;
+}
+
+.answers-items:hover{
+    background-color: white;
+    cursor: pointer;
+    
+}
+
+.answers-items:first-child{
+    border-radius: 10px 10px 0 0;
+}
+
+.answers-items:last-child{
+    border-radius: 0 0 10px 10px;
+}
+
+.textereaClass{
+    background-color: #f1f1f1;
     border: 1px solid #d4d4d4;
+    padding: 5px;
 }

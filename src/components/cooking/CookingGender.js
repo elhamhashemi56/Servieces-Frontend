@@ -1,8 +1,8 @@
 import './cookingforms.css'
-import NextBack from './NextBack'
 
 
-function CookingForms (){
+
+function CookingGender (){
     return(
         <div className='Cooking-container-forms'>
         <div className='cookInfo-forms'>
@@ -13,9 +13,7 @@ function CookingForms (){
                             <div className='question'>Do you need a man or a woman?</div>
                             <div className='answers'>
                                 <div className='answers-items'><input type="radio" value="Man" />Man</div>
-                                <div className='answers-items answer-line'></div>
                                 <div className='answers-items'><input type="radio" value="Woman"/>Woman</div>
-                                <div className='answers-items answer-line'></div>
                                 <div className='answers-items'><input type="radio" value="Nodiffrent" />No diffrent</div>
                             </div>
                         </div>
@@ -23,11 +21,9 @@ function CookingForms (){
             </div>
             <div className='cookItem1'></div>
         </div>
-        <div>
-         <NextBack />
-        </div>
+        
     </div>
     )
 }
 
-export default CookingForms
+export default CookingGender

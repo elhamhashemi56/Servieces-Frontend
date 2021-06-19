@@ -1,10 +1,3 @@
-
-
-.Cooking-container{
-    display: flex;
-    flex-direction: column;
-}
-
 .cookInfo{
     background-color: #f6f5f7;
     display: flex;
@@ -15,7 +8,7 @@
 }
 
 .cookItem{
-    background-image: url('./images/cooking.jpg');
+    background-image: url('../images/cooking.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     height: 50rem;
