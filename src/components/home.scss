@@ -1,0 +1,98 @@
+.Home{
+    &__header{
+        display: flex;
+        background-color: white;
+        justify-content:center;
+
+        &--left{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin-right: 20rem;
+
+                .HomeHeaderLeft-choose{
+                    padding: 15px;
+                    font-size: 12px;
+                    color: rgb(167, 166, 166);
+                }
+
+                .HomeHeaderLeft-search{
+                    border: 3.2rem solid #dd0000;
+                    border-radius: 50px;
+                    width: 36rem;
+                }
+        }
+
+        &--logo{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        &--handwerker{
+            width:16.5rem;
+            height: auto;
+        }
+    }
+
+    &__mitte{
+        border: 2px solid #3f3f3f;
+        background-color: #3f3f3f;
+    }
+    
+
+.HomeHeaderLogo-haus{
+    width: 26rem;
+    height: 5.3rem;
+    background-image: url('./images/logo.jpg');
+    background-size:cover;
+    background-repeat:no-repeat; 
+}
+
+.HomeHeaderLogo-hausTitr{
+    font-size: 2.5rem;
+    margin-top: 2.3rem;
+    margin-left: 4.6rem;
+    color: #3f3f3f;
+}
+
+.HomeHeaderLogo-contain{
+    display: flex;
+}
+
+.HomeHeaderLogo-service{
+    font-size: 2.6rem;
+    color: #dd0000;
+    font-weight: bold;
+}
+
+.HomeHeaderLogo-and{
+    font-size: 2.5rem;
+    color: #3f3f3f;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-right:10px;
+}
+
+.HomeHeaderLogo-repair{
+    font-size: 2.6rem;
+    color: #3f3f3f;
+    font-weight: bold;
+}
+
+.HomeHeaderLogo-line{
+    border:1px solid #616161;
+    width: 26rem;
+    height: 3rem;
+    border-left: none;
+    border-right: none;
+}
+
+.HomeHeaderLogo-titrline{
+    font-family: 'Big Shoulders Stencil Display', cursive;
+    color: gray;
+    font-size: 2rem;
+}
+
+
+}

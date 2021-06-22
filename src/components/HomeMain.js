@@ -1,7 +1,7 @@
-import './homeBottom.css'
+
 import Welcome  from './Welcome'
 
-function HomeBottom (){
+function HomeMain (){
     return(
 
         <Welcome />
@@ -9,4 +9,4 @@ function HomeBottom (){
     )
 }
 
-export default HomeBottom
+export default HomeMain

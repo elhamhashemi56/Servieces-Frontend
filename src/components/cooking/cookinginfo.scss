@@ -1,0 +1,16 @@
+.cookInfo{
+    background-color: #f6f5f7;
+    display: flex;
+
+    &__item1{
+        flex-basis: 20%;
+    }
+
+    &__item{
+        background-image: url('../images/cooking.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 50rem;
+        flex-basis: 60%;
+    }
+}

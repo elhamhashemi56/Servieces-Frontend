@@ -1,28 +1,25 @@
-import './cookingforms.css'
-
-
+import './forms.scss'
 
 function CookingGender (){
     return(
-        <div className='Cooking-container-forms'>
-        <div className='cookInfo-forms'>
-            <div className='cookItem1'></div>
-            <div className='cookItem-forms'>
-                <form className='form-container'>
-                        <div className='form-questions'>
-                            <div className='question'>Do you need a man or a woman?</div>
-                            <div className='answers'>
-                                <div className='answers-items'><input type="radio" value="Man" />Man</div>
-                                <div className='answers-items'><input type="radio" value="Woman"/>Woman</div>
-                                <div className='answers-items'><input type="radio" value="Nodiffrent" />No diffrent</div>
+        <div className='Form-container'>
+            <div className='Form-container__flex'>
+                <div className='Form-container__flex--item1'></div>
+                <div className='Form-container__flex--item'>
+                    <form>
+                        <section>
+                            <div className='Form-question'>Do you need a man or a woman?</div>
+                            <div className='Form-answers'>
+                                <div className='answers-items'><label><input name="gender"  type="radio" value="Man" />Man</label></div>
+                                <div className='answers-items'><label><input name="gender"  type="radio" value="Woman" />Woman</label></div>
+                                <div className='answers-items'><label><input name="gender"  type="radio" value="No-diffrent" />No diffrent</label></div>
                             </div>
-                        </div>
-                </form>
+                        </section>
+                    </form>
+                </div>
+                <div className='Form-container__flex--item1'></div>
             </div>
-            <div className='cookItem1'></div>
         </div>
-        
-    </div>
     )
 }
 

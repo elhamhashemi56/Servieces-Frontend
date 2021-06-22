@@ -1,0 +1,95 @@
+.Header-container{
+    display: flex;
+    justify-content: space-between;
+    
+        &__left{
+            display: flex;
+            margin-left: 30px;
+
+                img{
+                    width: 12rem;
+                    height: auto;
+                    margin-right: 30px;
+                }
+
+                &--special{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    margin-right: 5px;
+                }
+
+                &--specialSpan{
+                    border: 1px solid gray;
+                    border-radius: 5px;
+                    padding: 5px;
+                    color: gray;
+                    font-size: 10px;
+                }
+
+                &--home{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    margin-right: 5px;
+                }
+
+                &--homeSpan{
+                    border: 1px solid gray;
+                    border-radius: 5px;
+                    padding: 5px;
+                    color: gray;
+                    font-size: 10px;
+                }
+
+                &--specialSpan:hover{
+                    color: #f5c7c7;
+                }
+
+                &--special:hover{
+                    text-decoration: none;
+                }
+
+                &--homeSpan:hover{
+                    color: #f5c7c7;
+                }
+
+                &--home:hover{
+                    text-decoration: none;
+                }
+        }
+
+        &__right{
+            display: flex;
+            margin-right: 1.5rem;
+
+            form{
+                display: flex;
+                margin-top: 12px;
+
+                button.btnSearch{
+                        margin-left:10px;
+                        padding: 10px;
+                        height:3.2rem;
+                    }
+            }
+
+            svg{
+                height: 28px;
+                width: 28px;
+                margin: 15px 5px 10px 30px;
+            }
+
+            :last-child{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+            }
+
+            
+
+           
+         }
+
+         
+}

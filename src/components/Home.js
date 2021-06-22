@@ -1,27 +1,31 @@
-import './home.css'
+import './home.scss'
 import homeBild from './images/pic-home.jpg'
-import HomeBottom  from './HomeBottom'
+import HomeMain  from './HomeMain'
 function Home (){
     return(
-      <div>
-        <div className='homepic'>
-          <div className='homepic-items lefthome'>
-            <div className='choose'>Choose your city and search for the service you want.</div>
-            <div className='search'></div>
-          </div>
-          <div className='homepic-items homelogo'>
-            <div className='p1'><div className='p1div'>Home</div></div>
-            <div className='p_contain'>
-              <div className='pservice'>SERVICES</div>
-              <div className='and'>&</div>
-              <div className='repair'>REPAIRS</div>
+      <div className='Home'>
+        <div className='Home__header'>
+          <section className='Home__header--left'>
+            <div className='HomeHeaderLeft-choose'>Choose your city and search for the service you want.</div>
+            <div className='HomeHeaderLeft-search'></div>
+          </section>
+
+          <section className='Home__header--logo'>
+            <div className='HomeHeaderLogo-haus'><div className='HomeHeaderLogo-hausTitr'>Home</div></div>
+            <div className='HomeHeaderLogo-contain'>
+              <div className='HomeHeaderLogo-service'>SERVICES</div>
+              <div className='HomeHeaderLogo-and'>&</div>
+              <div className='HomeHeaderLogo-repair'>REPAIRS</div>
             </div>
-            <div className='line'><p className='titrline'>The  smallest  things  make  the  biggest  difference</p></div>
-          </div>
-          <div className='homepic-items'><img src={homeBild} className='handwerker'></img></div>
+            <div className='HomeHeaderLogo-line'><p className='HomeHeaderLogo-titrline'>The  smallest  things  make  the  biggest  difference</p></div>
+          </section>
+         
+          <img src={homeBild} className='Home__header--handwerker'></img>
+
         </div>
-        <div className='trclass'></div>
-        <HomeBottom />
+
+        <div className='Home__mitte'></div>
+        <HomeMain />
       </div>
     )
 }
